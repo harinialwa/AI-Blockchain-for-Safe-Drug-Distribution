@@ -33,22 +33,32 @@ Metamask: Download and install the Metamask Chrome extension for blockchain inte
 
 # Deploy Smart Contracts:
 Update the from: address in the truffle-config.js file with an address from your Ganache workspace.
+
 Run the migration command:
+
 truffle migrate --reset
+
 The smart contract will be deployed to the blockchain.
 
 # Run React Development Server:
 Navigate to the blockchain directory:
 cd blockchain
+
 Install dependencies:
 npm install
+
 Start the development server:
 npm start
 
 # Run Node.js Server:
 Navigate to the server directory:
+
 cd server
+
 Install dependencies:
+
 npm install
+
 Start the server:
+
 npm start
